@@ -1,0 +1,31 @@
+<template>
+<el-container class="main-container">
+    <!-- 头部区域 -->
+  <el-header>
+    <!-- 左侧的logo图 -->
+    <img src="../../assets/images/logo.png" alt="">
+    <!-- 右侧的菜单栏 -->
+    <el-menu  class="el-menu-top"
+        mode="horizontal"
+        background-color="#23262E"
+        text-color="#fff"
+        active-text-color="#409EFF"></el-menu>
+  </el-header>
+  <el-container>
+    <el-aside width="200px">Aside</el-aside>
+    <el-main>Main</el-main>
+  </el-container>
+</el-container>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="less" scoped>
+.main-container {
+    height: 100%;
+}
+</style>
